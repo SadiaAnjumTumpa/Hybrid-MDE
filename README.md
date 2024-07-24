@@ -7,6 +7,9 @@ Monocular depth estimation is a crucial task in many embedded vision systems wit
 ## SNN-ANN Hybrid network architecture
 ![mm_model_D525_box](https://github.com/user-attachments/assets/c3fadaca-5b7c-4938-843a-d8739ec9b755)
 
+## Dataset
+![MVSEC](https://daniilidis-group.github.io/mvsec/)
+![DENSE](https://rpg.ifi.uzh.ch/E2DEPTH.html)
 
 ## Training
 Download the vit-base inital checkpoints to train the model [here](https://drive.google.com/file/d/18Azic_56AHn_ysWlmSKOmVM6sjXE_0UG/view?usp=drive_link).
