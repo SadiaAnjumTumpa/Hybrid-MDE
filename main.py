@@ -62,7 +62,7 @@ def get_arguments():
   parser.add_argument('--initial_checkpoint', default=0, type=int)
   parser.add_argument('--save_freq', default=10, type=int)
   parser.add_argument('--optimizer', default="Adam", type=str, help= 'Choose from ["Adam", "SGD"]')
-  parser.add_argument('--model_name', default="mm_hybrid", type=str, help ='Choose from ["events_hybrid", "mm_hybrid", "events_ann", "mm_ann"]')
+  parser.add_argument('--model_name', default="mm_hybrid_256", type=str, help ='Choose from ["events_hybrid", "mm_hybrid", "events_ann", "mm_ann"]')
   parser.add_argument('--expt_dir', default='default', help='path where to save experimental logs')
   parser.add_argument('--image_size', default= 256, type=int, help = "Input frame size")
   parser.add_argument('--spike_threshold', default=1.0, type=float,
